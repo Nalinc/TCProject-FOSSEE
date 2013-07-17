@@ -1,7 +1,7 @@
 #6.1.py
 #Calculating the Absolute Value of an Integer
 
-#Variable Declaration
+#Variable Declaration/User input
 number=int(raw_input("Type in your number: "))
 
 #Calculation
