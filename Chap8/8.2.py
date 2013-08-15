@@ -10,7 +10,7 @@ def main():                                        #Main() function
         printMessage()                             #First Function call
         printMessage()                             #Second Function Call
 
-if  __name__ =='__main__':                         #Setting Top-level script environment
+if  __name__ =='__main__':                         #Setting Top-level conditional script
      main()
 
 
