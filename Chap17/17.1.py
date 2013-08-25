@@ -1,15 +1,20 @@
-#16.3.py
-#Program to copy one file to another
+#17.1.py
+#File Copy Program Using Command-Line Arguments
 
-#Main()
+#Import Libraries
+import sys,string,os
+
 def main():
+        
+        if(len(sys.argv)!=3):
+                print("need two file names!")
+                sys.exit()
+       
+#Read Command Line Arguments
+        inName=str(sys.argv[1])
+        outName=str(sys.argv[2])
 
-        print("Enter name of the file to be copied: ")
-        inName=raw_input()
-        print("Enter name of the output file: ")
-        outName=raw_input()
-
-#Try to open a file for reading
+        #Try to open a file for reading
         try:
             inn=open(inName,"r")         
         except:# Exception:
@@ -30,10 +35,12 @@ def main():
         inn.close()
         out.close()
 
+
         print("File has been copied.\n");
 
+
 #Setting top level conditional script
-if __name__=='__main__':
+if  __name__=='__main__':
         main()
 
 
