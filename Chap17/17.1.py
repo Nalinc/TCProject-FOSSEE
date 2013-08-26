@@ -2,7 +2,7 @@
 #File Copy Program Using Command-Line Arguments
 
 #Import Libraries
-import sys,string,os
+import sys
 
 def main():
         

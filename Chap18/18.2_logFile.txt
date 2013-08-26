@@ -1,0 +1,8 @@
+2013-08-26 20:40:42,333 - DEBUG - processed 2 arguments
+
+2013-08-26 20:40:42,334 - DEBUG - arg1 = 3, arg2 = 5
+
+2013-08-26 20:40:42,335 - DEBUG - process (3, 5)
+
+2013-08-26 20:40:42,335 - DEBUG - return 15
+

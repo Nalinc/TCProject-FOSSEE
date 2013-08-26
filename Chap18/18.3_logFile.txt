@@ -1,0 +1,8 @@
+2013-08-26 20:41:22,745 - DEBUG - processed 2 arguments
+
+2013-08-26 20:41:22,746 - INFO - arg1 = 3, arg2 = 5
+
+2013-08-26 20:41:22,747 - WARNING - process (3, 5)
+
+2013-08-26 20:41:22,748 - ERROR - return 15
+
